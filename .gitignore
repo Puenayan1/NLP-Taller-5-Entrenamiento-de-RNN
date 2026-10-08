@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/env
+/rnn_tuning_logs/clasificador_ansiedad
+/Combined Data es-ES.csv
