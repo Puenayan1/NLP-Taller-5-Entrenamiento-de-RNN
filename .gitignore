@@ -6,3 +6,4 @@
 /env
 /rnn_tuning_logs/clasificador_ansiedad
 /Combined Data es-ES.csv
+/rnn_tuning_logs/clasificador_ansiedad_opt
