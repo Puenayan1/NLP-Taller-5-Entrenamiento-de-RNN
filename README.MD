@@ -16,8 +16,7 @@ Este repositorio contiene la implementación, entrenamiento y optimización de u
 
 El siguiente diagrama ilustra el flujo de ejecución (MLOps) y la arquitectura de la red neuronal implementada:
 
-### Flujo de Ejecución (MLOps)
-```mermaid
+### Flujo de Ejecución 
 flowchart TD
     A[(Combined Data es-ES.csv)] --> B[Preprocesamiento y Concatenación Bilingüe]
     B --> C[Split Train/Test]
@@ -25,6 +24,7 @@ flowchart TD
     D -->|Prueba combinaciones| E[Evaluación de Hiperparámetros]
     E --> F[Entrenamiento Modelo Final\ncon Mejor Arquitectura]
     F --> G([Evaluación Final: Test Loss / Accuracy])
+    
 # Arquitectura de la Red Neuronal
 #Fragmento de código
 graph TD
@@ -34,6 +34,8 @@ graph TD
     L3 --> L4[Dropout\nEstático: 0.3]
     L4 --> L5[Dense Layer\n64 Unidades, ReLU]
     L5 --> Out([Dense Salida\n1 Unidad, Logits])
+
+
 # Tecnologías y Dependencias
 El proyecto está configurado para un entorno Windows nativo utilizando la versión estable de CPU de TensorFlow para evitar conflictos con librerías dinámicas de aceleración gráfica externa.
 
